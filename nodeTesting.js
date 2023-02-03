@@ -1,7 +1,7 @@
 const { spawn } = require('child_process');
 
 // const childPython = spawn('python', ['--version']);
-const childPython = spawn('python', ["BI_Connectors.py"]);
+const childPython = spawn('python3', ["BI_Connectors.py"]);
 
 childPython.stdout.on('data', (data) => {
     console.log("stdout: " + data);

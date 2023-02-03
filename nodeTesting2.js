@@ -1,7 +1,6 @@
 const { PythonShell } = require('python-shell')
 
 let options={
-    scriptPath:"C:/Users/jbuny/Documents/urt-routines/strapiPythonTesting",
     args:["Teste", 1],
 }
 
